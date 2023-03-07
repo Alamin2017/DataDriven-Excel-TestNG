@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+
+
+}
+dependencies {
+
+    implementation 'com.tngtech.junit.dataprovider:junit4-dataprovider:2.10'
+    implementation 'com.tngtech.junit.dataprovider:junit-jupiter-dataprovider:2.10'
+    implementation 'com.tngtech.junit.dataprovider:junit-dataprovider-core:2.10'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    testImplementation group: 'org.testng', name: 'testng', version: '7.6.1'
+
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.8.0'
+
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.2'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+
+    implementation group: 'org.apache.poi', name: 'poi', version: '3.14'
+
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.14'
+
+    implementation group: 'org.apache.poi', name: 'poi-ooxml-schemas', version: '3.14'
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+test {
+    useTestNG()
+}

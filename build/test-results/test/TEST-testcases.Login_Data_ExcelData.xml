@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcases.Login_Data_ExcelData" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-07T06:27:23" hostname="AMIN-AL01" time="17.802">
+  <properties/>
+  <testcase name="testLogin[0](prachi456@gmail.com, prachi_456, Prachi Gupta)" classname="testcases.Login_Data_ExcelData" time="8.113"/>
+  <testcase name="testLogin[1](prachi456@gmail.com, prachi_456, Prachi Dewen)" classname="testcases.Login_Data_ExcelData" time="9.675"/>
+  <system-out><![CDATA[prachi456@gmail.com
+prachi_456
+Prachi Gupta
+prachi456@gmail.com
+prachi_456
+Prachi Dewen
+]]></system-out>
+  <system-err><![CDATA[Starting Microsoft Edge WebDriver 110.0.1587.63 (b26c9b8fc01e4ee6478cd1585db0bdec672b52a6) on port 12487
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1678170448.387][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 07, 2023 12:27:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
+Starting Microsoft Edge WebDriver 110.0.1587.63 (b26c9b8fc01e4ee6478cd1585db0bdec672b52a6) on port 32778
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+[1678170455.869][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 07, 2023 12:27:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
+]]></system-err>
+</testsuite>
